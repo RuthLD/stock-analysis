@@ -6,9 +6,11 @@ Challenge 2 for Data Analysis Bootcamp
 The project’s background was to evaluate green energy company stocks to assess the potential for diversification of investment funds. The goal was to learn VBA and to refactor VBA script for optimization.
  
 ### Results
-The initial VBA script was created and run with the file INSERET LINK. For the 2017 stock data, the script had a run time of 1.621094 seconds, as seen in Before_Refactor_2017 image. INSERET IMAGE
-For 2018 stock data, the script had a run time of 1.292969 seconds, as seen in Before_Refactor_2018 image. INSERET IMAGE
-After refactoring the script, stock data for 2017 ran in 0.203125 seconds, and stock data for 2018 ran in 0.1953125 seconds. Images VBA_Challenge_2017 and VBA_Challenge_2018 show the reduced run times and that the initial analysis has not changed.
+The initial VBA script was created and run with the file [green_stocks](https://github.com/RuthLD/stock-analysis/blob/main/green_stocks.xlsm). For the 2017 stock data, the script had a run time of 1.621094 seconds, as seen in Before_Refactor_2017 image. ![Before_Refactor_2017](https://github.com/RuthLD/stock-analysis/blob/main/Resources/Before_Refactor_2017.png)
+
+For 2018 stock data, the script had a run time of 1.292969 seconds, as seen in Before_Refactor_2018 image. ![Before_Refactor_2018](https://github.com/RuthLD/stock-analysis/blob/main/Resources/Before_Refactor_2018.png)
+
+The file [VBA_Challenge](https://github.com/RuthLD/stock-analysis/blob/main/VBA_Challenge.xlsm) was used for to refator the VBA script. After refactoring the script, stock data for 2017 ran in 0.203125 seconds, and stock data for 2018 ran in 0.1953125 seconds. Images VBA_Challenge_2017 and VBA_Challenge_2018 show the reduced run times and that the initial analysis has not changed. ![VBA_Challenge_2017](https://github.com/RuthLD/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png) ![VBA_Challenge_2018](https://github.com/RuthLD/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 #### Key Changes in the Script
 In the initial analysis of all stock by year, the starting and ending price were initialized as variables.
