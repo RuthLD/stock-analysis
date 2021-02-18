@@ -12,27 +12,27 @@ After refactoring the script, stock data for 2017 ran in 0.203125 seconds, and s
 
 #### Key Changes in the Script
 In the initial analysis of all stock by year, the starting and ending price were initialized as variables.
-	_Dim startingPrice As Single_
-	_Dim endingPrice As Single_
+	* _Dim startingPrice As Single_
+	* _Dim endingPrice As Single_
  
 The following three changes influenced the run time of the script for efficiency. 
-*The creation of a tickerIndex variable.
-  '1a)Create a ticker Index
-   _tickerIndex = 0_
+* The creation of a tickerIndex variable.
+* 	'1a)Create a ticker Index
+* 	 _tickerIndex = 0_
  
-*The creation of output arrays for tickerVolumes, tickerStartingPrices, and tickerEnding Prices.
-	  '1b) Create three output arrays
-   	_Dim tickerVolumes(12) As Long_
-	  _Dim tickerStartingPrices(12) As Single_
-	  _Dim tickerEndingPrices(12) As Single_
+* The creation of output arrays for tickerVolumes, tickerStartingPrices, and tickerEnding Prices.
+* 	'1b) Create three output arrays
+* 	_Dim tickerVolumes(12) As Long_
+* 	_Dim tickerStartingPrices(12) As Single_
+* 	_Dim tickerEndingPrices(12) As Single_
   
 * Ensuring that the arrays’ starting value was set to zero at the beginning of each loop.
-    	'2a) Create a for loop to initialize the tickerVolumes to zero.
-    	_For i = 0 To 11_
-       	_tickerVolumes(i) = 0_
-        _tickerStartingPrices(i) = 0_
-        _tickerEndingPrices(i) = 0_
-  	  _Next i_
+* 	'2a) Create a for loop to initialize the tickerVolumes to zero.
+* 	_For i = 0 To 11_
+* 	_tickerVolumes(i) = 0_
+* 	 _tickerStartingPrices(i) = 0_
+* 	 _tickerEndingPrices(i) = 0_
+* 	 _Next i_
  
 ## Summary
 ### Advantages of Refactoring
