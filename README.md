@@ -21,18 +21,19 @@ In the initial analysis of all stock by year, the starting and ending price were
 * _Dim startingPrice As Single_
 * _Dim endingPrice As Single_
  
-The following three changes influenced the run time of the script for efficiency. 
-The creation of a tickerIndex variable.
+The following three changes made when refactoring the script influenced the run time of the script for efficiency. 
+
+1) The creation of a tickerIndex variable.
 * '1a)Create a ticker Index
 	* _tickerIndex = 0_
  
-The creation of output arrays for tickerVolumes, tickerStartingPrices, and tickerEnding Prices.
+2) The creation of output arrays for tickerVolumes, tickerStartingPrices, and tickerEnding Prices.
 * '1b) Create three output arrays
 	* _Dim tickerVolumes(12) As Long_
 	* _Dim tickerStartingPrices(12) As Single_
 	* _Dim tickerEndingPrices(12) As Single_
   
-Ensuring that the arrays’ starting value was set to zero at the beginning of each loop.
+3) Ensuring that the arrays’ starting value was set to zero at the beginning of each loop.
 * '2a) Create a for loop to initialize the tickerVolumes to zero.
 	* _For i = 0 To 11_
 	* _tickerVolumes(i) = 0_
