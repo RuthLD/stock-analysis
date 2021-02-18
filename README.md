@@ -1,5 +1,6 @@
 # stock-analysis
-learning how to use VBA in Excel to analysis and predict stock
+Learning how to use VBA in Excel to analysis and predict stock
+
 ## Project Overview
 Challenge 2 for Data Analysis Bootcamp
  
@@ -16,8 +17,9 @@ The file [VBA_Challenge](https://github.com/RuthLD/stock-analysis/blob/main/VBA_
 
 #### Key Changes in the Script
 In the initial analysis of all stock by year, the starting and ending price were initialized as variables.
-	* _Dim startingPrice As Single_
-	* _Dim endingPrice As Single_
+
+* _Dim startingPrice As Single_
+* _Dim endingPrice As Single_
  
 The following three changes influenced the run time of the script for efficiency. 
 The creation of a tickerIndex variable.
@@ -38,13 +40,13 @@ Ensuring that the arrays’ starting value was set to zero at the beginning of e
 	*  _tickerEndingPrices(i) = 0_
 	*  _Next i_
  
-## Summary
-### Advantages of Refactoring
+### Summary
+#### Advantages of Refactoring
 Refactoring will start with a preexisting outline of the script, and the code can be used with the modules already in place.
 
-### Disadvantages of Refactoring
+#### Disadvantages of Refactoring
 A firm understanding of the VBA syntax is needed to make the script more efficient.
  
-### Pros and Cons
+#### Pros and Cons
 When refactoring the original script for this project, the outline provided had all of the formatting information in place. The ticker array was set up beforehand, saving a lot of time. There was a significant improvement in the run time of the script after refactoring.
 The syntax’s exact requirements meant that the order I edited the script could return an error before I finished the edit.
