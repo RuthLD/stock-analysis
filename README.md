@@ -2,8 +2,6 @@
 Learning how to use VBA in Excel to analysis and predict stock
 
 ## Project Overview
-Challenge 2 for Data Analysis Bootcamp
- 
 The project’s background was to evaluate green energy company stocks to assess the potential for diversification of investment funds. The goal was to learn VBA and to refactor VBA script for optimization.
  
 ### Results
